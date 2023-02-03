@@ -29,12 +29,12 @@ public class User {
     private String email;
 
     @Column
-    private int phoneNumber;
+    private String phoneNumber;
 
     @OneToMany
     private List<Booking> bookings;
 
-    public User(String name, String email, int phoneNumber, List<Booking> bookings) {
+    public User(String name, String email, String phoneNumber, List<Booking> bookings) {
         this.name = name;
         this.email = email;
         this.phoneNumber = phoneNumber;

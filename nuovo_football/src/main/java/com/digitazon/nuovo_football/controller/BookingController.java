@@ -33,7 +33,7 @@ public class BookingController {
 
     @PostMapping("/create")
     public ResponseEntity<Booking> createBooking(@RequestBody Booking booking){
-        return new ResponseEntity<>(bookingService.saveBooking(booking), HttpStatus.CREATED);
+        return new ResponseEntity<>(bookingService.saveBooking(booking), HttpStatus.CREATED); 
     }
 
     @PutMapping("/update")

@@ -32,10 +32,10 @@ public class DataLoader implements CommandLineRunner {
             pitchService.savePitch(pitch2);
 
             //USER
-            User user1 = new User("Alessandro", "alessandro@gmail.com", 33952077, null);
-            User user2 = new User("Giulia", "giulia@gmail.com", 33410760, null);
-            User user3 = new User("Nik", "nik@gmail.com", 33922644, null);
-            User user4 = new User("Davide", "davide@gmail.com", 33834919, null);
+            User user1 = new User("Alessandro", "alessandro@gmail.com", "33952077", null);
+            User user2 = new User("Giulia", "giulia@gmail.com", "33410760", null);
+            User user3 = new User("Nik", "nik@gmail.com", "33922644", null);
+            User user4 = new User("Davide", "davide@gmail.com", "33834919", null);
 
             userService.saveUser(user1);
             userService.saveUser(user2);
